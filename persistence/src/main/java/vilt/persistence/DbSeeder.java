@@ -22,7 +22,7 @@ public class DbSeeder implements CommandLineRunner{
 		 this.clientRepository = clientRepository;
 	 }
 	
-	 public void doNothing() {
+	 public void log() {
 			  
 			BasicConfigurator.configure();	  
 		    LOGGER.debug("Depuracion");

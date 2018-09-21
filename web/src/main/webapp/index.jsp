@@ -7,7 +7,7 @@ page import="vilt.*"
 <h2>Hello World!</h2>
 <%
 		DbSeeder hola = new DbSeeder(clientRepository);
-		
+		//Mostrar clinetRepository
 		hola.log();
 	%>
 </body>
